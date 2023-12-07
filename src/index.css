@@ -25,7 +25,9 @@ button.square {
 .game {
   display: flex;
   flex-direction: row;
-  margin-left: 3rem;
+  justify-content: center;
+  height: 65vh;
+  margin-top: 30vh;
 }
 
 .board-row {

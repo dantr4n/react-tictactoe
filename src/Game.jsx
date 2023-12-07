@@ -76,7 +76,6 @@ const Game = () => {
     setCurrentMove(nextMove);
   }
 
-  // TODO: need to check when 'moves' list get re-render !
   // 'move' is the index of 'squares' in 'history'
   const listMoves = history.map((squares, move) => {
     let description;
